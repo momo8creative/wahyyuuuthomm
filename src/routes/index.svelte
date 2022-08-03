@@ -1,49 +1,36 @@
 <script>
-  import Icon from "$lib/Icon.svelte";
-
   const menus = [
-    { label: "Photography", to: "/", icon: "camera" },
-    { label: "Videography", to: "/", icon: "camera" },
-    { label: "Design", to: "/", icon: "camera" },
-    { label: "Youtube", to: "/", icon: "camera" },
-    { label: "About Me", to: "/", icon: "camera" },
+    {
+      label: "Photography",
+      to: "https://drive.google.com/drive/folders/14b9hsYtcwre9I9OhnqV4RbgdSy1RO9CO?usp=sharing",
+      icon: "camera",
+    },
+    {
+      label: "Videography",
+      to: "https://drive.google.com/drive/folders/1U36B-2Fc75laszdLA_Hf_Gb_7WdGJ06x?usp=sharing",
+      icon: "camera",
+    },
+    {
+      label: "Design Grafis",
+      to: "https://drive.google.com/drive/folders/1yRh_CyYsqdIiTnjv7tV6TIw3ioLglGMc?usp=sharing",
+      icon: "camera",
+    },
+    {
+      label: "Youtube",
+      to: "https://www.youtube.com/c/NDRENGUSMUSICOFFICIAL",
+      icon: "camera",
+    },
+    { label: "About Me", to: "/aboutme", icon: "camera" },
   ];
 </script>
 
-<main>
-  <header>
-    <h1>WahyyuuuThomm</h1>
-    <p>My Portofolio Website</p>
-  </header>
-
-  <nav>
-    {#each menus as menu}
-      <a href="/" class="link"> <div>{menu.label}</div></a>
-    {/each}
-  </nav>
-
-  <footer>
-    <h3>Design By</h3>
-    <div>Web Developer : Momo Creative</div>
-    <div>Design Grafis : Wahyyuuuthomm</div>
-  </footer>
-</main>
+<nav>
+  {#each menus as menu}
+    <a href={menu.to} class="link"> <div>{menu.label}</div></a>
+  {/each}
+</nav>
 
 <style>
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-
-    margin: 0 auto;
-  }
-
-  header {
-    padding: 4rem 0;
-    text-align: center;
-  }
-
   nav {
     display: flex;
     flex-direction: column;
@@ -75,13 +62,5 @@
     right: -0.8rem;
     bottom: -0.8rem;
     background-color: hsl(0, 0%, 40%);
-  }
-
-  footer {
-    font-family: "Cute Font", cursive;
-    margin-top: auto;
-    padding: 2rem 0;
-    text-align: center;
-    line-height: 1.8rem;
   }
 </style>
