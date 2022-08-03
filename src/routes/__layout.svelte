@@ -28,7 +28,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
     margin: 0 auto;
   }
 
@@ -48,7 +47,7 @@
   footer {
     font-family: "Cute Font", cursive;
     margin-top: auto;
-    padding: 2rem 0 8rem 0;
+    padding: 6rem 0 8rem 0;
     text-align: center;
     line-height: 1.8rem;
   }
