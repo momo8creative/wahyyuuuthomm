@@ -39,17 +39,17 @@
   }
 
   a.link {
-    font-size: 2.8rem;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    position: relative;
+    height: 5rem;
+    width: 20rem;
+    font-size: 2.4rem;
     text-decoration: none;
     background-color: #cccccc;
     color: black;
-    height: 5rem;
-    width: 20rem;
     text-transform: uppercase;
   }
 
