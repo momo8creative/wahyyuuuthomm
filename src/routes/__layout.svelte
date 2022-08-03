@@ -48,7 +48,7 @@
   footer {
     font-family: "Cute Font", cursive;
     margin-top: auto;
-    padding: 2rem 0;
+    padding: 2rem 0 8rem 0;
     text-align: center;
     line-height: 1.8rem;
   }
