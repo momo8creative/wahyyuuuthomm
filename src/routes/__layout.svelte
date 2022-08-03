@@ -1,10 +1,13 @@
 <script>
+  import Popup from "../lib/Popup.svelte";
   import "../styles/global.css";
 </script>
 
 <svelte:head>
   <title>WahyyuuuThomm</title>
 </svelte:head>
+
+<Popup />
 
 <main>
   <header>
