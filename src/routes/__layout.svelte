@@ -45,8 +45,9 @@
   }
 
   footer {
+    position: fixed;
+    bottom: 4rem;
     font-family: "Cute Font", cursive;
-    margin-top: auto;
     padding: 6rem 0 8rem 0;
     text-align: center;
     line-height: 1.8rem;
