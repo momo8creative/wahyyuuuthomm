@@ -1,58 +1,32 @@
 <script>
-  import Popup from "../lib/Popup.svelte";
   import "../styles/global.css";
+  import Navbar from "$lib/Navbar.svelte";
+  import IconGroup from "$lib/IconGroup.svelte";
+  // import Nav from "$lib/Nav.svelte";
+  import FooterBot from "$lib/FooterBot.svelte";
+  import Popup from "$lib/Popup.svelte";
+  import ContactUs from "$lib/ContactUs.svelte";
 </script>
 
 <svelte:head>
   <title>WahyyuuuThomm</title>
 </svelte:head>
 
-<Popup />
-
+<!-- <Popup /> -->
 <main>
-  <header>
-    <a href="/">
-      <h1>WahyyuuuThomm</h1>
-    </a>
-    <p>My Portofolio Website</p>
-  </header>
-
+  <Navbar />
+  <IconGroup />
   <slot />
-
-  <footer>
-    <h3>Design By</h3>
-    <div>Web Developer : Momo Creative</div>
-    <div>Design Grafis : Wahyyuuuthomm</div>
-  </footer>
+  <!-- <Nav /> -->
 </main>
+
+<ContactUs />
+
+<FooterBot />
 
 <style>
   main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 26rem;
     margin: 0 auto;
-  }
-
-  header {
-    padding: 4rem 0;
-    text-align: center;
-  }
-
-  header a h1 {
-    transition: all 300ms ease;
-  }
-
-  header a h1:hover {
-    transform: scale(105%);
-  }
-
-  footer {
-    position: fixed;
-    bottom: 4rem;
-    font-family: "Cute Font", cursive;
-    padding: 6rem 0 8rem 0;
-    text-align: center;
-    line-height: 1.8rem;
   }
 </style>
