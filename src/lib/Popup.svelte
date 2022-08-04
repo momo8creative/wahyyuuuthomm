@@ -12,8 +12,9 @@
   <p>Mohon dimaklumi jika ada bug atau kekurangan.</p>
 
   <br />
-  <a href="https://saweria.co/wathom" class="saweria"
-    ><span>LINK SAWERIA</span></a
+  <a href="https://saweria.co/wathom"
+    ><div>Buat beli jajan</div>
+    <div class="link">https://saweria.co/wathom</div></a
   >
   <br />
   <p>
@@ -74,20 +75,8 @@
     font-size: 1.8rem;
   }
 
-  main .saweria {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-size: 3.4rem;
-    color: white;
-    text-shadow: 0 0 4px black, 0 0 2px black, 0 0 2px black, 0 0 4px black,
-      0 0 2px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  main .saweria span {
-    position: absolute;
-    width: max-content;
-    transform: rotate(-2deg);
+  main .link {
+    text-decoration: underline;
+    color: blue;
   }
 </style>
