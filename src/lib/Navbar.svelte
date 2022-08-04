@@ -4,8 +4,11 @@
 
 <header>
   <img src={imgUrl} alt="profil" />
-  <div class="title">Welcome to my website</div>
-  <small class="subtitle">Let's join us</small>
+  <br />
+  <div class="text">
+    <span class="title">Welcome to my website</span>
+    <span class="subtitle">Let's join us</span>
+  </div>
 </header>
 
 <style>
@@ -15,6 +18,11 @@
     text-transform: uppercase;
   }
 
+  header .text {
+    display: flex;
+    flex-direction: column;
+  }
+
   header img {
     width: 9rem;
     padding: 1rem 0;
@@ -22,7 +30,7 @@
 
   header .title {
     font-size: 2.2rem;
-    line-height: 0;
+    line-height: 1.8rem;
   }
 
   header .subtitle {

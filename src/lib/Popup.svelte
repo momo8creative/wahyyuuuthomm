@@ -29,7 +29,7 @@
 
   main {
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 9;
     inset: 2rem;
     background-color: aliceblue;
