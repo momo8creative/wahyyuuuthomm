@@ -12,7 +12,9 @@
   <p>Mohon dimaklumi jika ada bug atau kekurangan.</p>
 
   <br />
-  <a href="/" class="saweria"><span>LINK SAWERIA</span></a>
+  <a href="https://saweria.co/wathom" class="saweria"
+    ><span>LINK SAWERIA</span></a
+  >
   <br />
   <p>
     Salam hangat <br />
